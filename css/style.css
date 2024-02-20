@@ -58,6 +58,34 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header ***********/
+
+header {
+    background-color: white;
+}
+
+.conteneur-entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logobrooki {
+    width: 100px;
+}
+
+.lien-header {
+    padding: 20px;
+    border-top: 2px solid #FFF;
+}
+
+.lien-header:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
