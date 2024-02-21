@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 :root {
@@ -62,22 +63,26 @@ a {
 
 header {
     background-color: white;
-}
-
-.conteneur-entete {
+    height: 79px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding: 20px 0;
 }
 
 .logobrooki {
-    width: 100px;
+    align-items: center;
+    height: 19px;
+    padding-top: 20px;
+}
+
+.liens {
+    display: flex;
+    gap: 68px;
 }
 
 .lien-header {
-    padding: 20px;
     border-top: 2px solid #FFF;
+    padding-top: 15px;
+    font-size: 14px;
 }
 
 .lien-header:hover {
