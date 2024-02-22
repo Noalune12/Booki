@@ -2,6 +2,7 @@
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -70,8 +71,8 @@ header {
 
 .logobrooki {
     align-items: center;
-    height: 19px;
     padding-top: 20px;
+    height: 40px;    
 }
 
 .liens {
@@ -90,6 +91,84 @@ header {
     border-top: 2px solid var(--main-color);
 
 }
+
+/****** Search bar ***********/
+.search {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+}
+
+#logo-location {
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    height: 45px;
+    width: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location-search {
+    border: 1px solid #F2F2F2;
+    width: 190px;
+}
+
+#location-search:focus  {
+    outline-width: 0;
+}
+
+#search-desktop {
+    background-color: var(--main-color);
+    border: 0;
+    width: 130px;
+    border-radius: 0 15px 15px 0;
+    color: white;
+}
+
+#search-mobile {
+    background-color: var(--main-color);
+    border: 0;
+    border-radius: 15px;
+    width: 45px;
+    display: none;
+}
+
+
+#icon-search-mobile {
+    color: white;
+}
+
+#search-desktop:hover, #search-mobile:hover {
+    background-color: #044fc0;
+    cursor: pointer;
+}
+
+#search-desktop:active {
+    background-color: var(--main-color);
+}
+
+#location-search, #search-desktop {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
