@@ -275,17 +275,15 @@ form {
     margin-top: 20px; 
     flex-direction: column;
     width: 31%;
-    border: 2px solid white;
 }
 
 .hebergements-cards .card:hover {
     background-color: #DEEBFF;
-    border: 2px solid #D9D9D9;
 }
 
 .hebergements-cards img {
     width: 100%;
-    height: 120px;
+    height: 100px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
     object-position: center;
@@ -351,6 +349,46 @@ form {
     margin-bottom: 5px;
 }
 
+.populaires-cards .card:hover {
+    background-color: #DEEBFF;
+}
+
+/****** Activités ***********/
+
+.activites {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.activites-liste {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.activites-liste .card {
+    padding: 0;
+    width: 30%;
+}
+.activites-liste .card img {
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 320px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+
+.activites-liste .card h3 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.activites-liste .card:hover {
+    background-color: #DEEBFF;
+}
 
 
 
