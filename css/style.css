@@ -530,7 +530,7 @@ footer {
     }
 
     #location-search {
-        width: 75%;
+        flex: 1;
     }
 
     #search-desktop {
