@@ -198,6 +198,7 @@ form {
     display: flex;
     gap: 15px;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -554,9 +555,13 @@ footer {
         width: 100%;
     }
 
+    .filtres-liste {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
     .filtres-types {
         width: 45%;
-        justify-content: flex-start;
     }
 
     .filtres-types p {
