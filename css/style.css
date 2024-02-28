@@ -76,7 +76,7 @@ h3 {
     font-weight: bold;
 }
 
-h4 {
+.afficher-plus {
     font-size: 18px;
     font-weight: bold;
 }
@@ -95,7 +95,7 @@ header {
     width: 100%;
 }
 
-.logobrooki {
+.logobooki {
     padding-top: 20px;
     height: 40px;    
 }
@@ -455,7 +455,7 @@ footer {
         font-size: 13px;
     }
 
-    h4 {
+    .afficher-plus {
         font-size: 16px;
     }
 
@@ -614,7 +614,7 @@ footer {
         height: 110px;
     }
 
-    .hebergements h4 {
+    .afficher-plus  {
         font-size: 14px;
     }
 
