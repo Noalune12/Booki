@@ -260,7 +260,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
     margin-bottom: 30px;
 }
 
@@ -273,6 +273,7 @@ form {
 
 .hebergements-cards .card:hover {
     background-color: #DEEBFF;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.5));
 }
 
 .hebergements-cards img {
@@ -349,6 +350,7 @@ form {
 
 .populaires-cards .card:hover {
     background-color: #DEEBFF;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.5));
 }
 
 /****** Activités ***********/
@@ -385,7 +387,7 @@ form {
 }
 
 .activites-liste .card:hover {
-    background-color: #DEEBFF;
+    transform: scale(1.05);
 }
 
 /****** Activités ***********/
