@@ -32,9 +32,16 @@ a {
     text-decoration: none;
 }
 
+.page-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
+    font-weight: bold;
 }
 
 .card {
@@ -44,12 +51,10 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card img {
-    object-fit: cover;
-}
-
 .card-title {
     font-size: 16px;
+    font-weight: bold;
+
 }
 
 .euro {
@@ -58,22 +63,6 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
-}
-
-h1 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 16px;
-    font-weight: bold;
 }
 
 .afficher-plus {
@@ -324,6 +313,7 @@ form {
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
 
 .populaires-cards .card-content {
@@ -415,7 +405,7 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    h1 {
+    .page-title {
         font-size: 20px;
     }
 
